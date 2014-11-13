@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+
+	<cron>
+		<url>/rest/make/hotplace</url>
+		<description>make hot_place</description>
+		<schedule>every 1 hours synchronized</schedule>
+	</cron>
+
+
+	<cron>
+		<url>/rest/make/coolplace</url>
+		<description>make cool_place</description>
+		<schedule>every 30 minutes synchronized</schedule>
+	</cron>
+	
+	<cron>
+		<url>/rest/make/random</url>
+		<description>make randomdata</description>
+		<schedule>every 5 minutes synchronized</schedule>
+	</cron>
+	
+</cronentries>
